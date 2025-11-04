@@ -1,3 +1,19 @@
+# SENSITIVE FILES TO IGNORE
+temp.txt
+vms.json
+users_list.txt
+new_interfaces_file.txt
+interfaces
+user_assoc_vms/
+User_Scripts_Modules/users_list.txt
+User_Scripts_Modules/vms.json
+VM_Scripts_Modules/vms.json
+Advanced_Scripts_Modules/disk_rbd_output.txt
+Advanced_Scripts_Modules/disk_orphans.txt
+Advanced_Scripts_Modules/diskinuse.txt
+*.txt
+*.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
