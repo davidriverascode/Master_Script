@@ -32,7 +32,8 @@ def snapshot_vms_offline():
 	        subprocess.call(args, shell=True)
 
 def run():
-
+	print("Virtual Machine Snapshotting")
+	print("\n!! Must be on the same node as VMs !!")
 	print("\nIs/are the virtual machine(s) on or off?")
 	vm_state = input("Virtual Machine state: ")
 
